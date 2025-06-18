@@ -1,0 +1,74 @@
+@use "myColor";
+
+.logement_detail{
+    display: flex;
+    width: 77.5em;
+    justify-content: space-between;
+}
+
+.logement_detailPremier {
+    display: flex;
+    width: 51.6em;
+    flex-direction: column;
+    h1 {
+        margin-left: 1em;
+        font-size: 1.25em;
+        p {
+            margin: 0em;
+        }
+    }
+    nav {
+        display: flex;
+        width: 51.6em;
+        justify-content: flex-start;
+        margin-top: 4em;
+        button {
+            background-color: #F4D35E;
+            border: none;
+            border-radius: myColor.$myBorderRadius;
+            width: 7.188em;
+            height: 1.563em;
+            color: #6F1D1B;
+            margin-left: 1em;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            font-size: 1.07em;
+        }
+    }
+}
+
+.logement_titre{
+    font-size: 2.25em;
+    color: #6F1D1B;
+    margin: 0;
+}
+.logement_titre_lieu{
+    color: black;
+    font-size: 0.75em;
+}
+
+.logement_detailDeuxieme {
+    display: flex;
+    width: 25.9em;
+    justify-content: flex-end;
+    align-items: center;
+    img {
+        height: 10em;
+        border-radius: 10em;
+        object-fit: contain ;
+     }
+}
+
+.logement_detailCollapse{
+    display: flex;
+    width: 77.5em;
+    justify-content: space-between;
+}
+
+.logement_divCollapse{
+    display: flex;
+    flex-direction: column;
+    width: 36.375em;
+    margin-top: 3em;
+}

@@ -1,0 +1,24 @@
+$myColor: rgba(247, 127, 0, 1);
+$myBorderRadius: 1.25em;
+
+@mixin display-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin taille-slogan {
+    width: 77.5em;
+    height: 14em;
+    border-radius: 1.25em;
+  }
+
+@mixin card-logement {
+    height: 15em;
+    width: 15em;
+    border-radius: $myBorderRadius;
+}
+
+
+
+

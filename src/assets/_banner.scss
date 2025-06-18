@@ -1,0 +1,33 @@
+@use "myColor";
+
+ 
+  .imgSlogandiv {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imgSlogan {
+      display: flex;
+      flex-wrap: wrap;
+      @include myColor.taille-slogan;
+      margin-bottom: 2em;
+      img{
+        @include myColor.taille-slogan;
+        object-fit: cover;
+      }
+      div{
+        display: flex;
+        position: relative;
+        bottom: 14em;
+        @include myColor.taille-slogan;
+        justify-content: center;
+        color: white;
+        background: rgba(0, 0, 0, 0.6);
+        align-items: center;
+        h1 {
+          margin: 0;
+          font-size: 3em;
+        }
+      }
+    }
+  

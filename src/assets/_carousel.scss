@@ -1,0 +1,44 @@
+@use "myColor";
+
+.Carousel_Containers {
+    display: flex;
+    flex-direction: column;
+    height: 25em;
+
+}
+.Carousel_Containers_Img {
+    display: flex;
+    width: 77.5em;
+    height: 22em;
+    border-style: solid;
+    border-width: 0.5em;
+    border-radius: myColor.$myBorderRadius;
+    img {
+        display: flex;
+        object-fit: cover;
+        width: 77.5em;
+        height: 22em;
+        border-radius: myColor.$myBorderRadius;
+    }
+}
+
+.Carousel_Chevrons {
+    display: flex;
+    width: 77.5em;
+    height: 7.6em;
+    position: relative;
+    bottom: 12em;
+    justify-content: space-between;
+    button {
+        background-color: transparent;
+        border: none;
+        width: 2.75em;
+        height: 3em;
+        cursor: pointer;
+    }
+    .Icon{
+        width: 2.75em;
+        height: 3em;
+        color: #6F1D1B;
+    }
+}

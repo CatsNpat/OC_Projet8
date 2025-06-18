@@ -1,0 +1,20 @@
+@use 'myColor';
+
+.aPropos{
+    display: flex;
+    justify-content: center;
+}
+
+.mainApropos {
+    @include myColor.display-column;
+    margin: 1em 0 1em 0;
+    width: 77.5em;
+}
+
+.boutonApropos {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border-radius: 0.5em;
+    padding: 0;
+}    

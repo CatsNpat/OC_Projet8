@@ -1,0 +1,106 @@
+
+[
+	{
+		"id": "c67ab8a7",
+		"title": "Développer le back-end d'un site de notation de livres",
+		"cover": "/src/assets/imgHome/penup_20250608_140704.jpg",
+		"pictures": [
+			"/src/assets/imgHome/captures_json/c67ab8a7/capture_une.png",
+			"/src/assets/imgHome/captures_json/c67ab8a7/capture_deux.png",
+			"/src/assets/imgHome/captures_json/c67ab8a7/capture_trois.png",
+			"/src/assets/imgHome/captures_json/c67ab8a7/capture_quatre.png"
+		],
+		"description": "Le projet d'étude consistait à développer la partie back-end d'un site de notation de livres. Pour ce faire, j'ai utilisé le framework Express de Node.js. L'API avec la base de données est Mongoose.",
+		"host": {
+			"picture": "/src/assets/imgHome/penup_20250608_140704.jpg"
+		},
+		"location": "https://github.com/CatsNpat/OC_Projet6.git",
+		"apprentissages": [
+			"CRUD",
+			"Middleware",
+			"Données d'environnement",
+			"Système d'authentification sécurisé"
+		],
+		"tags": [
+			"Back-end",
+			"Node.js",
+			"Express",
+			"Mongoose"
+		]
+	},
+	{
+		"id": "b9123946",
+		"title": "Créer une application web de location immobilière avec React",
+		"cover": "/src/assets/imgHome/penup_20250608_143359.jpg",
+		"pictures": [
+			"/src/assets/imgHome/captures_json/b9123946/capture_une.png",
+			"/src/assets/imgHome/captures_json/b9123946/capture_deux.png",
+			"/src/assets/imgHome/captures_json/b9123946/capture_trois.png",
+			"/src/assets/imgHome/captures_json/b9123946/capture_quatre.png"
+		],
+		"description": "Le sujet d'étude portait sur du développement front-end en React. Le serveur utilisé est Vite.",
+		"host": {
+			"picture": "/src/assets/imgHome/penup_20250608_143359.jpg"
+		},
+		"location": "https://github.com/CatsNpat/OC_Projet5.git",
+		"apprentissages": [
+			"React Composants",
+			"SASS",
+			"Configuration Vite"
+		],
+		"tags": [
+			"Front-end",
+			"React",
+			"React Router",
+			"Vite"
+		]
+	},
+	{
+		"id": "46d188c5",
+		"title": "Créer la page d'accueil d'une agence de voyage avec Html et CSS",
+		"cover": "/src/assets/imgHome/penup_20250608_160126.jpg",
+		"pictures": [
+			"/src/assets/imgHome/captures_json/46d188c5/capture_une.png",
+			"/src/assets/imgHome/captures_json/46d188c5/capture_deux.png",
+			"/src/assets/imgHome/captures_json/46d188c5/capture_trois.png"
+		],
+		"description": "Ce projet permettait une première approche du développement web avec la création visuelle d'une page web statique.",
+		"host": {
+			"picture": "/src/assets/imgHome/penup_20250608_160126.jpg"
+		},
+		"location": "https://github.com/CatsNpat/OC_Projet2.git",
+		"apprentissages": [
+			"HTML",
+			"CSS",
+			"Interface responsive"
+		],
+		"tags": [
+			"Front-end",
+			"HTML",
+			"CSS"
+		]
+	},
+	{
+		"id": "12m597o4",
+		"title": "Débugger et optimiser un site de photographe",
+		"cover": "/src/assets/imgHome/penup_20250608_160126.jpg",
+		"pictures": [
+			"/src/assets/imgHome/captures_json/12m597o4/capture_une.png",
+			"/src/assets/imgHome/captures_json/12m597o4/capture_deux.png",
+			"/src/assets/imgHome/captures_json/12m597o4/capture_trois.png"
+		],
+		"description": "Ce projet . Des notions de SEO et d'accessibilités web ont été abordées",
+		"host": {
+			"picture": "/src/assets/imgHome/penup_20250608_160126.jpg"
+		},
+		"location": "https://github.com/CatsNpat/OC_Projet4.git",
+		"apprentissages": [
+			"Optimisation des performances d'un site web",
+			"Rédaction d'un cahier de recette"
+		],
+		"tags": [
+			"SEO",
+			"Accessibilité"
+		]
+	}
+]

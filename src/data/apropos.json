@@ -1,0 +1,17 @@
+[
+    {
+        "id":"1",
+        "title":"Qui suis-je ?",
+        "text":"Je m'appelle Élisabeth. Je suis bibliothécaire et j'ai décidé d'apprendre à coder pour me reconvertir."
+    },
+    {
+        "id":"2",
+        "title":"Contact",
+        "text":"Vous pouvez me contacter via ce mail CatsAndCoffee@gmail.com."
+    },
+    {
+        "id":"3",
+        "title":"Mantra",
+        "text":"Je suis à la fois l’architecte, le bâtisseur et l’artiste de mes projets. Je respecte mon rythme. Je transforme l’intuition en création."
+    }
+]

@@ -1,0 +1,36 @@
+@use"myColor";
+
+.header {
+    display: flex;
+    margin: 2em 0em 2em 0em;
+    justify-content: space-around;
+}
+nav{
+  display: flex;
+  width: 77.5em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  img {
+    width: 15em;
+    height: auto;
+    border-radius: 1.25em;
+    margin: 1em 2em 1em 2em;
+    object-fit: contain;
+  }
+  ul {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  ::marker {
+    color: #6F1D1B;
+  }
+  li {
+    font-size: 1.5em;
+  }
+  li :hover {
+    color: black;
+    text-decoration: underline;
+  }
+}

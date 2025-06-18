@@ -1,0 +1,50 @@
+@use "myColor";
+
+.collapseTout {
+    display: flex;
+    background-color: #F4D35E;
+    color: #6F1D1B;
+    margin-bottom: 0.5em;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 0.5em;
+    padding: 0;
+h2 {
+    display: flex;
+    padding-left: 1em;
+    width: 90%;
+    font-size: 1.15em;
+}
+button {
+    display: flex;
+    background-color: #F4D35E;
+    color: #6F1D1B;
+    border: none;
+    align-items: center;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+}
+.collapseApropos {
+    padding: 0 1.125em;
+    animation-duration: 1s;
+    animation-name: collaspe;
+    overflow: hidden;
+    p{
+        width: 100%;
+        color: black;
+        margin-top: 0;
+        font-size: 1.15em;
+}
+}
+@keyframes collaspe {
+    from {
+        margin-top: -2%;
+        height: 0%;
+    }
+    to {
+        margin-top: 0;
+        height: 100%;
+    }
+}
+

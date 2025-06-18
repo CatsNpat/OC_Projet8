@@ -1,0 +1,26 @@
+@use "myColor";
+
+.quatreMain {
+    @include myColor.display-column;
+    margin: 1em 0 1em 0;
+    div {
+        @include myColor.display-column;
+        
+        h2 {
+            color: myColor.$myColor;
+            font-size: 18em;
+            font-weight: bold;
+            margin: 0;
+        }
+        p {
+            color: myColor.$myColor;
+            font-size: 2.25em;
+            margin: 0;
+        }
+    }
+}
+.quatrePara {
+    text-decoration: underline;
+    font-size: 1.125em;
+    margin: 5em 0 5em 0;
+}

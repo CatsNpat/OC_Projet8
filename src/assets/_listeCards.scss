@@ -1,0 +1,53 @@
+@use "myColor";
+
+.mainMain{
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: myColor.$myBorderRadius;
+  box-sizing: border-box;
+  width: 77.5em;
+}
+
+.logement {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2em 0em 1em 0em;
+  padding: 1em 1.15em;
+  @include myColor.card-logement;
+
+  img{
+    display: flex;
+    object-fit: cover;
+    opacity: 0.1;
+    @include myColor.card-logement;
+  }
+}
+
+.logement:hover {
+  img{
+    opacity: 1;
+  }
+  .titreH {
+  opacity:0.1;
+  justify-content: center;
+  }
+}
+
+.titreH {
+  display: flex;
+  opacity:1;
+  position:relative;
+  bottom: 7.5em;
+  color: #6F1D1B;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,209 @@
+@use "header";
+@use "listeCards";
+@use "footer";
+@use "aPropos";
+@use "quatreCents";
+@use "banner";
+@use "collapse";
+@use "ficheLogement";
+@use "myColor";
+
+
+body {
+  padding: 5em;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: content-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+
+  font-family: Mulish;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FAF3E0;
+  border-radius: 1.25em;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+a{
+  color: #6F1D1B;
+  text-decoration: none;
+}
+
+
+@media (prefers-color-scheme: light) {
+  #root {
+    color: #213547;
+    background-color: #FAF3E0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body{
+    padding: 0;
+    box-sizing: content-box;
+    max-width: 100vh;
+
+  }
+  #root {
+    width: 100%;
+  }
+  .header {
+    padding: 1em 1em 0 1em;
+    nav{
+      width: 100%;
+      justify-content: center;
+      img {
+        margin: 0;
+      }
+      ul {
+        width: 100%;
+        padding: 0;
+        flex-direction: row;
+        li{
+          font-size: 1em;
+          margin: 1em;
+        }
+      }
+    }
+  }
+  .imgSlogan {
+    width: 100%;
+    height: 6.938em;
+    img{
+      height: 6.938em;
+    }
+    div{
+      height: 6.938em;
+      bottom: 6.9em;
+      justify-content: flex-start;
+      h1 {
+        font-size: 1.5em;
+        width: 67%;
+        margin-left: 2em;
+        text-align: center;
+      }
+    }
+
+  }
+  .imgSlogandiv {
+    padding: 0 1em 0 1em;
+    height: 6.938em;
+  }
+  .mainApropos{
+    padding: 1em;
+    width: 100%;
+  }
+  .mainMain {
+    padding: 0 1em 0 1em;
+  }
+  .boutonApropos {
+    width: 100%;
+  }
+  .Main_LogementDetail {
+    padding: 0 1em 0 1em;
+  }
+  .Carousel_Containers {
+    width: 100%;
+    height: 10em;
+  }
+
+  .Carousel_Containers_Img {
+    width: 100%;
+    height: 10em;
+    border-style: none;
+    img {
+      width: 100%;
+      height: 10em;
+    }
+  }
+  
+  .Carousel_Chevrons {
+    width: 100%;
+    bottom: 6em;
+    .Icon{
+      width: 1.5em;
+      height: 1.5em;
+    }
+  }
+  .logement_detail {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .logement_titre {
+    font-size: 1.125em;
+  }
+
+  .logement_titre_lieu{
+    font-size: 0.875em;
+  }
+
+  .logement_detailPremier {
+    nav {
+      margin-top: 0;
+      width: 100%;
+      flex-wrap: wrap;
+      button {
+        font-size: 0.625em;
+        margin-top: 0.5em;
+      }
+    }
+  }
+
+  .logement_detailCollapse {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .logement_detailDeuxieme {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logement_detailDeuxieme {
+    img {
+      height: 5em;
+    }
+  }
+
+  .logement_divCollapse {
+    margin-top: 0;
+    h2 {
+      font-size: 0.813em;
+    }
+  }
+  .collapseApropos p {
+    font-size: 0.75em;
+  }
+
+  .footer {
+    margin-top:0;
+    img{
+      width: 7em;
+    }
+  }
+
+  .footer_p {
+    flex-wrap: wrap;
+  h3{
+    font-size: 0.75em;
+  }
+  }
+}
